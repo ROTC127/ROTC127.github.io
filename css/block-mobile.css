@@ -26,6 +26,7 @@
   }
 
   html {
-    -ms-content-zooming: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
   }
 }
