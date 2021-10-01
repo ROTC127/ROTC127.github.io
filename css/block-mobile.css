@@ -22,10 +22,13 @@
 @media screen and (max-width: 1000px) {
   body {
     overflow: hidden;
-    height: 100%;
   }
 
-  html {
+  body * {
+    touch-action: none;
+  }
+
+  body {
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
   }
