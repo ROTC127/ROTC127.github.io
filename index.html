@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./script/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div id="head"></div>
+    
+<!-- 페이지 제일 위 headLine -->
+<div id="head"></div>
+
+<!-- 네비게이션 바 강원대학교 마크 학군단(ROTC), 학군단 소개, ROTC 소개, 찾아오는길 -->
+    <header>
+    <nav>
+      <!-- 전체 디자인 Ul 시작 -->
+      <!-- 페이지 제일 위 headLine -->
+  <div class="black-line"></div>
+      <ul class="header-navigation">
+        <!-- ******** 좌측 헤더 네비게이션 ********-->
+        <!-- 눌렀을 때 메인 페이지 이동 -->
+        <a class="header-navigation-img" href="index.html">
+          <!-- 강원대학교 이미지 로고 -->
+          <img id="header-logo" src="images/logo.png" />
+          <!-- 학군단 타이틀 -->
+          <div class="header-navigation-left-title">
+            <p>| 학군단(ROTC)</p>
+          </div>
+        </a>
+        <!-- ******** 좌측 끝 ******** -->
+
+        <!-- ******** 우측 시작 학군단 소개, ROTC 소개, 찾아오는 길  ******** -->
+        <ul class="header-navigation-right-ul">
+          <li>
+            <div class="header-navigation-dropdown">
+            <!-- 첫번째 메뉴 학군단 소개 버튼 -->
+              <button class="header-navigation-dropdown-button">학군단 소개</button>
+              <div class="header-navigation-dropdown-container">
+                <a href="./rotc-intro.html">학군단 소개</a>
+                <a href="./history.html">학군단 연혁</a>
+                <a href="./cadet-organization.html">후보생 조직도</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- 첫번째 메뉴 END -->
+
+
+          <!-- 두번째 메뉴 ROTC 소개 -->
+          <li>
+            <div class="header-navigation-right-div-2">
+                <a href="./cadet-intro.html"> <p>ROTC 소개</p></a>
+              </a>
+            </div>
+          </li>
+          <!-- 두번째 메뉴 END -->
+
+          <!-- 세번째 메뉴 찾아오는 길 -->
+          <li>
+            <div class="header-navigation-right-div-3">
+              <a href="./map.html"><p>찾아오는 길</p></a>
+            </div>
+          </li>
+          <!-- 세번째 메뉴 END -->
+
+        </ul>
+        <!-- ******** 우측 네비게이션 END ******** -->
+      </ul>
+      <!-- 전체 디자인 Ul END -->
+      <div class="black-line"></div>
+    </nav>
+  </header>
+ 
+    <!-- 네비게이션 END -->
+    
+    
+      <div class="content">
+        <div class="left-container">
+          <div class="left-top-container">
+          <img class="img-size2" src="./images/picture1.png">
+          <img class="img-size3" src="./images/picture2.png">
+          <img class="img-size4" src="./images/yodo.jpeg">
+          <img class="img-size5" src="./images/zingzip.gif">
+          <img class=" img-size1" src="./images/rotc-picture.jpg">
+        </div>
+        <div id="box">
+         
+          <div id="wrap">
+             
+              <div class="sample1">
+               
+                <img class="img-size" src="./images/knu-logo.jpg">
+                
+              </div>
+              <div class="sample2">
+                <img class="img-size" src="./images/zingzip.gif">
+              </div>
+              <div class="sample3">
+                <img class="img-size" src="./images/gukbang.jfif">
+              </div>
+              <div class="sample4">
+                <img class="img-size" src="./images/CAPTURE.PNG">
+              </div>
+          </div>
+      </div>
+    </div>
+        <!--전체를 감쌀 뼈대-->
+        <div class="slides">
+            <!--슬라이드될 아이템들 -->
+            
+                <p class="slide-title"> 강원대학교 정웅교</p>
+            
+            <img class="slide_item" src="./images/pic1.png"></img>
+            <img class="slide_item" src="./images/pic2.png"></img>
+            <img class="slide_item" src="./images/pic3.png"></img>
+            <img class="slide_item" src="./images/pic4.png"></img>
+            <img class="slide_item" src="./images/pic5.png"></img>
+            <img class="slide_item" src="./images/pic6.png"></img>
+        </div>
+    </div>
+
+    <!-- footer 시작 -->
+<footer class="footer">
+  <!-- footer 좌측 이미지 -->
+  <img class="KNUlogo" src="images/KNU logo.png" />
+  <!-- footer 우측 정보 -->
+  <p>
+    춘천캠퍼스 : (24341)강원도 춘천시 강원대학길 1(효자동) 강원대학교 춘천캠퍼스
+    127 학군단
+    <br />
+    춘천캠퍼스(033-250-7308)
+    <br />
+    삼척캠퍼스(033-570-6736)
+    <br />
+    COPYRIGHT (C) 2017 BY KANGWON NATIONAL UNIVERSITY. ALL RIGHTS RESERVED.
+  </p>
+
+  <!-- footer 우측 정보 END -->
+</footer>
+<!-- footer END -->
+
+   <script src="./script/slider.js"></script>
+   <script src="./script/hover.js"></script>
+  </body>
+</html>

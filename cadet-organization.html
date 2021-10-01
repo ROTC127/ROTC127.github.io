@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    
+
+
+<!-- 네비게이션 바 강원대학교 마크 학군단(ROTC), 학군단 소개, ROTC 소개, 찾아오는길 -->
+<header>
+    <nav>
+      <!-- 전체 디자인 Ul 시작 -->
+      <!-- 페이지 제일 위 headLine -->
+  <div class="black-line"></div>
+      <ul class="header-navigation">
+        <!-- ******** 좌측 헤더 네비게이션 ********-->
+        <!-- 눌렀을 때 메인 페이지 이동 -->
+        <a class="header-navigation-img" href="index.html">
+          <!-- 강원대학교 이미지 로고 -->
+          <img id="header-logo" src="images/logo.png" />
+          <!-- 학군단 타이틀 -->
+          <div class="header-navigation-left-title">
+            <p>| 학군단(ROTC)</p>
+          </div>
+        </a>
+        <!-- ******** 좌측 끝 ******** -->
+
+        <!-- ******** 우측 시작 학군단 소개, ROTC 소개, 찾아오는 길  ******** -->
+        <ul class="header-navigation-right-ul">
+          <li>
+            <div class="header-navigation-dropdown">
+            <!-- 첫번째 메뉴 학군단 소개 버튼 -->
+              <button class="header-navigation-dropdown-button">학군단 소개</button>
+              <div class="header-navigation-dropdown-container">
+                <a href="./rotc-intro.html">학군단 소개</a>
+                <a href="./history.html">학군단 연혁</a>
+                <a href="./cadet-organization.html">후보생 조직도</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- 첫번째 메뉴 END -->
+
+
+          <!-- 두번째 메뉴 ROTC 소개 -->
+          <li>
+            <div class="header-navigation-right-div-2">
+                <a href="./cadet-intro.html"> <p>ROTC 소개</p></a>
+              </a>
+            </div>
+          </li>
+          <!-- 두번째 메뉴 END -->
+
+          <!-- 세번째 메뉴 찾아오는 길 -->
+          <li>
+            <div class="header-navigation-right-div-3">
+              <a href="./map.html"><p>찾아오는 길</p></a>
+            </div>
+          </li>
+          <!-- 세번째 메뉴 END -->
+
+        </ul>
+        <!-- ******** 우측 네비게이션 END ******** -->
+      </ul>
+      <!-- 전체 디자인 Ul END -->
+      <div class="black-line"></div>
+    </nav>
+  </header>
+    <!-- 네비게이션 END -->
+    <!-- Main Start-->
+    <div class="test1"></div>
+    <main>
+      <!-- Side Bar Start-->
+      <!-- 사이드 메뉴 시작 -->
+<div class="sideMenu-container">
+  <!-- 학군단 마크  -->
+  <div class="sideMenu-img-container">
+    <img class="sideMenu-img" src="images/guundan.png" />
+  </div>
+
+  <!-- 학군단 소개 시작 -->
+  <div>
+    <div class="sideMenu-dropdown-container">
+      <button class="sideMenu-dropdown-button" id="color-change">
+        학군단 소개 <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="sideMenu-dropdown-content">
+        <a href="./rotc-intro.html">학군단 소개</a>
+        <a href="./history.html">학군단 연혁</a>
+        <a href="./cadet-organization.html">후보생 조직도</a>
+      </div>
+    </div>
+  </div>
+  <!-- 학군단 소개 끝 -->
+
+  <!-- ROTC 소개 시작 -->
+  <div>
+    <div class="sideMenu-dropdown-container">
+      <a href="./cadet-intro.html"
+        ><button class="sideMenu-dropdown-button">
+          ROTC 소개 <i class="fas fa-chevron-right"></i></button
+      ></a>
+      <div class="sideMenu-dropdown-content"></div>
+    </div>
+  </div>
+  <!-- ROTC 소개 끝 -->
+
+  <!-- 찾아오는 길 시작 -->
+  <div>
+    <div class="sideMenu-dropdown-container">
+      <a href="./map.html">
+        <button class="sideMenu-dropdown-button">
+          찾아오는 길 <i class="fas fa-chevron-right"></i>
+        </button>
+      </a>
+    </div>
+    <div class="sideMenu-dropdown-content"></div>
+  </div>
+  <!-- 찾아노는 길 END -->
+</div>
+<!-- 사이드 메뉴 끝 -->
+
+      <!-- Side Bar End-->
+      <!-- Content Start-->
+      <div class="content-bundle">
+        <!-- Content-Header Start -->
+        <div class="content-header">
+          <!-- Content-Header-Title Start-->
+          <div class="content-header-title">
+            <p class="content-header-title-font">후보생 조직도</p>
+
+            <div class="content-header-title-semi-title">
+              <p>제 127학군단 > 후보생 조직도</p>
+            </div>
+          </div>
+          <!-- Content-Header-Title End-->
+        </div>
+        <!-- Content-Header End -->
+
+        <!-- 본문 내용 추가 영역-->
+        <!-- Content-Article Start-->
+        <div class="content-Article">
+          <img class="img-size" src="images/cadet_organization60.png" / >
+          <img class="img-size" src="images/cadet_organization61.png" />
+        </div>
+        <!-- Content-Article End-->
+        <!-- 본문 내용 추가 영역 끝-->
+      </div>
+      <!-- Content End-->
+    </main>
+    <!-- Main End-->
+    <!-- <footer>
+      <img class="KNUlogo" src="images/KNU logo.png" />
+      <p class="CampusIntroduce">
+        춘천캠퍼스 : (24341)강원도 춘천시 강원대학길 1(효자동) 강원대학교 춘천캠퍼스 127 학군단
+        <br />
+        춘천캠퍼스(033-250-7308)
+        <br />
+        삼척캠퍼스(033-570-6736)
+        <br />
+        COPYRIGHT (C) 2017 BY KANGWON NATIONAL UNIVERSITY. ALL RIGHTS RESERVED.
+      </p>
+    </footer> -->
+    <!-- footer 시작 -->
+<footer class="footer">
+  <!-- footer 좌측 이미지 -->
+  <img class="KNUlogo" src="images/KNU logo.png" />
+  <!-- footer 우측 정보 -->
+  <p>
+    춘천캠퍼스 : (24341)강원도 춘천시 강원대학길 1(효자동) 강원대학교 춘천캠퍼스
+    127 학군단
+    <br />
+    춘천캠퍼스(033-250-7308)
+    <br />
+    삼척캠퍼스(033-570-6736)
+    <br />
+    COPYRIGHT (C) 2017 BY KANGWON NATIONAL UNIVERSITY. ALL RIGHTS RESERVED.
+  </p>
+
+  <!-- footer 우측 정보 END -->
+</footer>
+<!-- footer END -->
+
+  </body>
+</html>

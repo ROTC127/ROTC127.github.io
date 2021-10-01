@@ -1,0 +1,156 @@
+#box {
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    background: linear-gradient(#2d3f53, 80%, transparent);
+}
+#wrap {
+    position: relative;
+    width: 88%; /* wrap에 속한 div의 넓이+margin값을 더한 넓이와 높이값 */
+    height: 88%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -45%); /* 중앙정렬 */
+    border-radius: 20px;
+}
+#wrap > div {
+    width: 40%;
+    height: 40%;
+    border: 1px solid #333;
+    border-radius: 20px;
+    float: left;
+    margin: 2%;
+    box-sizing: border-box; /* border 또한 위치값을 갖기에 div크기가 더 커짐을 방지하기 위한 */
+}
+#wrap > div:nth-child(3) {
+    clear: both; /* float:left 의 줄바꿈을 위한 */
+}
+.left-container {
+    width: 30%;
+    height: 80%;
+}
+.left-top-container {
+    width: 90%;
+    height: 40%;
+    margin-bottom: 5%;
+}
+.img-size2 {
+    display: none;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.img-size3 {
+    display: none;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.img-size4 {
+    display: none;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.img-size5 {
+    display: none;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.img-size1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.sample1 img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.sample1:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.sample2 img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.sample2:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.sample3 img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.sample3:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.sample4 img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.sample4:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
