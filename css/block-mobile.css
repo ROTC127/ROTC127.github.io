@@ -24,4 +24,8 @@
     overflow: hidden;
     height: 100%;
   }
+
+  html {
+    -ms-content-zooming: none;
+  }
 }
