@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (max-height: 1000px) {
   body {
     overflow: hidden;
   }
@@ -32,4 +32,17 @@
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
   }
+}
+
+.block-comment {
+  display: block;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#block-logo {
+  height: 40%;
+  width: 40%;
 }
