@@ -35,14 +35,16 @@ nav {
 
 /* 헤더 왼쪽 타이틀 div */
 .header-navigation-left-title {
-  width: 200px;
+  margin-left: 10px;
   text-align: center;
+  font-weight: bolder;
 }
 
 /* 헤더 오른쪽 메뉴 Ul */
 .header-navigation-right-ul {
   display: flex;
   align-items: center;
+  font-weight: bolder;
 }
 
 /* 헤더 오른쪽 두번째 메뉴 div (ROTC 소개) */
@@ -76,6 +78,7 @@ nav {
   color: black;
   font-size: 22px;
   border: none;
+  font-weight: bolder;
 }
 
 /* 드롭다운 될 때 생성되는 리스트를 담는 div */
