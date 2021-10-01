@@ -1,15 +1,17 @@
-@import url("slider.css");
-@import url("main-layout.css");
-@import url("font.css");
-@import url("yodo.css");
-@import url("header.css");
-@import url("sideMenu.css");
-@import url("footer.css");
-@import url("main-grid.css");
+@import url('slider.css');
+@import url('main-layout.css');
+@import url('font.css');
+@import url('yodo.css');
+@import url('header.css');
+@import url('sideMenu.css');
+@import url('footer.css');
+@import url('main-grid.css');
+@import url('block-mobile.css');
+
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
